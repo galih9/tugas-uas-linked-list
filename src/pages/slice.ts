@@ -1,15 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit"
-
-export interface IExampleTypes {
-  name: string
-  description: string
-  grade: number
-  children?: IExampleTypes[]
-}
-
-export interface IInitialProps {
-  data: IExampleTypes[]
-}
+import { IInitialProps, IExampleTypes } from "./types"
 
 const initialState: IInitialProps = {
   data: [],

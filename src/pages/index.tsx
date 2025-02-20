@@ -1,8 +1,9 @@
 import { useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { pushData, popData, IExampleTypes, deleteData, addChild, deleteChild } from "./slice"
+import { pushData, popData, deleteData, addChild, deleteChild } from "./slice"
 import { RootState } from "../app/store"
 import View from "./view"
+import { IExampleTypes } from "./types"
 
 const initialFormValue = {
   name: "",
