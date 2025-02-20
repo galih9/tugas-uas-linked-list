@@ -1,5 +1,4 @@
 import { Key, memo } from "react"
-import { IExampleTypes } from "./slice"
 import React from "react"
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore"
 import ExpandLessIcon from "@mui/icons-material/ExpandLess"
@@ -8,6 +7,7 @@ import AddIcon from "@mui/icons-material/Add"
 import ChevronRightIcon from "@mui/icons-material/ChevronRight"
 import SEIcon from "@mui/icons-material/SouthEast"
 import InputField from "../components/InputField"
+import { IExampleTypes } from "./types"
 
 interface ViewProps {
   list: IExampleTypes[]
